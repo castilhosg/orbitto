@@ -1,0 +1,237 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	
+	<!-- Metas essenciais-->
+	<meta charset="UTF-8"/>
+	<meta name="robots" content="index,follow"/>
+	<!--Metas opcionais-->
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta name="keywords" content="geek, nerd, funkopop, funko pop, brinquedo, brinquedos, mass effect, videogame, game, pokemon, tech, tecnologia, robo, pelucia, loja geek porto alegre, porto alegre, jogos, rpg, Porto Alegre, dados rpg, gamer"/>
+	<meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempus interdum tellus, id malesuada tellus faucibus et."/>
+	<meta name="language" content="pt-BR"/>
+	<meta name="author" content="Guilherme de Castilhos Soares"/>
+	<meta name="designer" content="Guilherme de Castilhos Soares"/>
+	<meta name="publisher" content="Guilherme de Castilhos Soares"/>
+	<meta name="reply-to" content="guilhermescastilhos@gmail.com"/>
+	<meta name="owner" content="Guilherme de Castilhos Soares"/>
+	<meta name="revisit-after" content="7 days"/>
+	
+	<title>O R B I T T O - Jogos, Tecnologia e Cultura Geek</title>
+	
+	<!--CSS Externo-->
+	<link href="css/index.css" rel="stylesheet"/>
+	<!--Bootstrap-->
+	<link href="css/bootstrap.css" rel="stylesheet"/>
+	<link href="css/bootstrap-theme.css" rel="stylesheet"/>
+	<script src="js/bootstrap.js" type="text/javascript"></script>
+	<!--Link p/ fonte no google-->
+	<link rel="preconnect" href="https://fonts.gstatic.com"/>
+	<link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet"/>
+	<!--Ícones p/ Social Media-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	
+</head>
+<body>
+	<header class="container-fluid">
+		<div>
+			<!--Título do Site-->
+			<a href="index.html"><img src="../img/orbitto_nome.png" alt="logo do site" title="Orbitto" id="logo_big" class="img-responsive center-block visible-lg"/></a>
+			<a href="index.html"><img src="img/orbitto_nome.png" alt="logo do site" title="Orbitto" id="logo" class="img-responsive center-block hidden-lg"/></a>
+		</div>
+		
+		<span class="visible-xs"><br></span>
+		
+		<!--Barra de Navegação-->
+		<nav id="opcoes" class="container-fluid">		
+				
+				<ul class="nav navbar-dark nav-justified">
+					<!--Botões Menu-->
+					<li><a href="index.html" id="home"><b>Home&nbsp; <span class="glyphicon glyphicon-home"></span></b></a></li>
+					<li><a href="produtos.html" id="produto"><b>Produtos&nbsp; <span class="glyphicon glyphicon-shopping-cart"></span></b></a></li>
+					<li><a href="quemsomos.html" id="quem"><b>Quem Somos&nbsp; <span class="glyphicon glyphicon-user"></span></b></a></li>
+					<li><a href="quemsomos.html#txt_cont" id="contato"><b>Contato&nbsp; <span class="glyphicon glyphicon-envelope"></span></b></a></li>
+				</ul>
+				
+		</nav>
+	</header>
+	
+	<div class="hidden-xs"><br><br></div>
+	
+	<!--Carrossel - Imagem de Destaque-->	
+		<div id="img_destaque" class="container hidden-xs">
+		
+			<div class="carousel slide" id="carrossel">
+				
+				<!--Indicadores-->
+				<ol class="carousel-indicators">
+				
+					<li data-target="#carrossel" data-slide-to="0" class="active"></li>
+					<li data-target="#carrossel" data-slide-to="1"></li>
+					<li data-target="#carrossel" data-slide-to="2"></li>
+					<li data-target="#carrossel" data-slide-to="3"></li>
+					<li data-target="#carrossel" data-slide-to="4"></li>
+					
+				</ol>
+				
+				<!--Imagens-->			
+				<div class="carousel-inner">
+				
+					<div class="item active">
+						<img src="img/cube_cropped.webp" alt="brinquedos diversos e blocos que soletram a palavra 'friends'" class="carrossel" width="100%" />
+					</div>
+					
+					<div class="item">
+						<img src="../img/pacman.webp" alt="fantasmas do jogo pacman em azulejo" class="carrossel" width="100%" />				
+					</div>
+					
+					<div class="item">					
+						<img src="img/friends.webp" alt="fantasmas do jogo pacman em azulejo" class="carrossel" width="100%" />				
+					</div>
+
+					<div class="item">				
+						<img src="img/legoblocks.webp" alt="peças de lego" class="carrossel" width="100%" />					
+					</div>
+					
+					<div class="item">				
+						<img src="img/gameover.webp" alt="tela de 'game over'" class="carrossel" width="100%" />						
+					</div>
+						
+				</div>
+				
+				<!--Controlador do Carrossel-->				
+					<a href="#carrossel" class="carousel-control left" data-slide="prev" rol="button">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a>
+					
+					<a href="#carrossel" class="carousel-control right" data-slide="next" rol="button">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+
+				</div>
+			
+		</div>
+	
+	<span class="hidden-xs"><br></span>
+	
+	<div class="container-fluid">		
+		<p>
+			<h3 align="center"><b>Produtos em Destaque</b></h3>
+		</p>
+		
+		<span class="hidden-xs"><br></span>
+		
+		<br><div id="img_prod">
+			<!--Produtos em Destaque-->
+			<figure>
+				<img src="img/1.webp" alt="pelúcia do personagem eevee" class="img-responsive"/>
+				<figcaption>
+					<br><button type="button" class="btn btn-default">Comprar&nbsp; <span class="glyphicon glyphicon-shopping-cart"></span></button>
+					<button type="button" class="btn btn-default">Detalhes&nbsp; <span class="glyphicon glyphicon-search"></span></button>
+				</figcaption>
+			</figure>
+				
+			<figure>
+				<img src="img/2.webp" alt="gameboy" class="img-responsive"/>
+				<figcaption>
+					<br><button type="button" class="btn btn-default">Comprar&nbsp; <span class="glyphicon glyphicon-shopping-cart"></span></button>
+					<button type="button" class="btn btn-default">Detalhes&nbsp; <span class="glyphicon glyphicon-search"></span></button>
+				</figcaption>
+			</figure>
+						
+			<figure>
+				<img src="img/3.webp" alt="brinquedo do personagem jason" class="img-responsive"/>
+				<figcaption>
+					<br><button type="button" class="btn btn-default">Comprar&nbsp; <span class="glyphicon glyphicon-shopping-cart"></span></button>
+					<button type="button" class="btn btn-default">Detalhes&nbsp; <span class="glyphicon glyphicon-search"></span></button>
+				</figcaption>
+			</figure>
+				
+			<figure>
+				<img src="img/4.webp" alt="robô de brinquedo" class="img-responsive"/>
+				<figcaption>
+					<br><button type="button" class="btn btn-default">Comprar&nbsp; <span class="glyphicon glyphicon-shopping-cart"></span></button>
+					<button type="button" class="btn btn-default">Detalhes&nbsp; <span class="glyphicon glyphicon-search"></span></button>
+				</figcaption>
+			</figure>
+			
+			<figure class="hidden-xs">
+				<img src="img/5.webp" alt="pelúcia do personagem baymax" class="img-responsive"/>
+				<figcaption>
+					<br><button type="button" class="btn btn-default">Comprar&nbsp; <span class="glyphicon glyphicon-shopping-cart"></span></button>
+					<button type="button" class="btn btn-default">Detalhes&nbsp; <span class="glyphicon glyphicon-search"></span></button>
+				</figcaption>
+			</figure>
+			
+			<figure class="hidden-xs">
+				<img src="img/6.webp" alt="capacete stormtrooper feito de lego" class="img-responsive"/>
+				<figcaption>
+					<br><button type="button" class="btn btn-default">Comprar&nbsp; <span class="glyphicon glyphicon-shopping-cart"></span></button>
+					<button type="button" class="btn btn-default">Detalhes&nbsp; <span class="glyphicon glyphicon-search"></span></button>
+				</figcaption>
+			</figure>
+		
+		</div>			
+	</div>	
+	
+	<span class="hidden-xs"><br></span>
+		
+	<!--Vídeo-->	
+	<br><div id="video" class="container-fluid" >
+		<div align="center">
+		
+			<p>
+				<h3><b>Vídeo</b></h3>
+			</p>
+	
+			<!--Vídeo Exemplo-->
+			<br><span align="center" class="center visible-xs"><iframe width="auto" height="auto" src="https://www.youtube-nocookie.com/embed/Yw6u6YkTgQ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span>			
+			<br><span align="center" class="visible-sm visible-md"><iframe width="560px" height="315px" src="https://www.youtube-nocookie.com/embed/Yw6u6YkTgQ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span>		
+			<br><span align="center" class="visible-lg"><iframe width="800px" height="480px" src="https://www.youtube-nocookie.com/embed/Yw6u6YkTgQ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span>
+			
+		</div>
+	</div>
+	
+	<span class="hidden-xs"><br><br></span>
+	
+	<!--Rodapé-->
+	<footer class="container-fluid">
+		
+		<div id="div_f" class="container-fluid">
+
+				<p id="rodape_texto">			
+					<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempus interdum tellus, id malesuada tellus faucibus et.</h4>			
+				</p>
+				
+					<br>
+				
+					<p id="social_icons" style="font-size:1.80em;">					
+						<a href="http://www.facebook.com" class="fa fa-facebook"></a>
+						<a href="http://www.twitter.com" class="fa fa-twitter"></a>
+						<a href="http://www.youtube.com" class="fa fa-youtube"></a>
+						<a href="http://www.instagram.com" class="fa fa-instagram"></a>
+						<a href="https://web.whatsapp.com/" class="fa fa-whatsapp"></a>					
+					</p>
+				
+				<!-- Scrolltop -->	
+				<div id="scrolltop">
+					<img src="img/up.png" alt="flecha para rolar a tela para cima" width="45vw" height="45vh" class="img-responsive"/>
+				</div>	
+			
+	  </div>
+	  
+	</footer>
+	
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="js/jquery-3.4.1.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/scrolltop.js"></script>
+<script>  
+   $(function(){
+   $("#scrolltop").click(
+   function () {
+   $("html, body").animate({scrollTop: "0px"}, 900); 
+   });
+   });
+</script>
+	
+</body>
+</html>
